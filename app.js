@@ -1,16 +1,9 @@
-let day = "wednesday"
+let toluAge = 29 + 1
 
-console.log(day)
+console.log(toluAge)
 
-let position = "3"
-
-console.log(position)
-
-//let output = "today is wednesday '.' it is the 3rd day of the week"
-
-
-
-
-//console.log(output)
-
-console.log("today is " + day + "."  +   "it is the " + position + "rd day of the week") 
+if(toluAge / 2)(
+    console.log("I am an Adult")
+)
+else("I am an Adolescent"
+)
