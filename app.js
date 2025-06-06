@@ -1,9 +1,14 @@
-let toluAge = 29 + 1
+const triangleside1 = 9
+const triangleside2 = 7
+const triangleside3 = 8
 
-console.log(toluAge)
+if(triangleside1 === triangleside2 && triangleside3)(
+    console.log("Equilateral Triangle")
+)
+else if(triangleside1 === triangleside2 || triangleside2 === triangleside3 || triangleside1 === triangleside3)(
+    console.log("Isoceles Triangle")
+)
+    else(
+        console.log("Scalene Triangle")
+    )
 
-if(toluAge / 2)(
-    console.log("I am an Adult")
-)
-else("I am an Adolescent"
-)
