@@ -1,5 +1,4 @@
-let car = 1  //starting point
-while(car <=10)(  //condition to stop
-    console.log(car + "car")
-    car = car + 1  //how to iterate
-)
+for (let odd = 1; odd <=20; odd++){
+    console.log(odd + " odd")
+    odd = odd + 1
+}
