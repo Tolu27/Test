@@ -1,11 +1,8 @@
-function areaofrectangle(a, b){
-    console.log(a * b)
-}
-areaofrectangle(5,7)
+//centimeter to meter
 
-function area(a,b){
-    const multiplication =(a,b)
-    return multiplication
+function centimeterTometer(centimeter){
+    const conversionconstant = 1000
+    const meter = centimeter * 1000
+    return meter
 }
-
-console.log(area (5,7))
+console.log(centimeterTometer(5))
