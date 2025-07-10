@@ -1,8 +1,6 @@
-//centimeter to meter
+const numbers = [1, 2, 3, 4, 5]
 
-function centimeterTometer(centimeter){
-    const conversionconstant = 1000
-    const meter = centimeter * 1000
-    return meter
+function reverse(arr){
+    return arr.slice().reverse()
 }
-console.log(centimeterTometer(5))
+console.log(reverse(numbers))
