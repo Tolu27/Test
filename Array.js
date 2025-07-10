@@ -1,4 +1,5 @@
-let fruits = ["pineapple", "orange", "lemon", "guava"]
-fruits.sort()
+function divisibleby10(num){
+    return num % 10 === 0
+}
 
-console.log(fruits)
+console.log(divisibleby10(50))
