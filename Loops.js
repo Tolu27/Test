@@ -1,6 +1,5 @@
-const numbers = [1, 2, 3, 4, 5]
-
-function reverse(arr){
-    return arr.slice().reverse()
+function countvowels(str){
+    const matches = str.match(/[aeiou]/gi)
+    return matches ? matches.length : 0;
 }
-console.log(reverse(numbers))
+console.log(countvowels("Hello world"))
