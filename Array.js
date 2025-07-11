@@ -1,5 +1,8 @@
-function divisibleby10(num){
-    return num % 10 === 0
+function filternegativenumbers(arr){
+    return arr.filter(num => num >= 0)
 }
 
-console.log(divisibleby10(50))
+const numbers = [1, 4, -2, -6, 9, -4]
+const result = filternegativenumbers(numbers)
+
+console.log(result)
