@@ -1,3 +1,11 @@
-let digits = [10,11,15,22,19]
-digits.sort((a, b)=> b - a)
-console.log(digits)
+function MultiplicationTable(number){
+    let table = []
+    let times = 1
+    while (times < 13){
+        let result = (number * times)
+        times += 1
+        table.push(result)
+    }
+    console.log(table)
+}
+MultiplicationTable(5)
